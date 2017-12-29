@@ -1,0 +1,61 @@
+Cambios para la version 1.0.8
+Agregado para Administradores Servidor De Pruebas.
+Arregladas las Paginas Web de:
+ -Recuperar Contraseña y Cuenta.
+ -Registrar Una Cuenta Nueva.
+ -Cambio de Contraseña.
+Agregado Tiempo real de cambios de cPoints
+
+Cambios para la version 1.0.7
+Se cambio el logo del launcher de nuevo al de brillo.
+Arreglado Bug visual en Xelion Online:
+ -Eliminado Cuadrado Rosa al Seleccionar Personajes.
+ -Arreglado AoE de Hablidades.
+Agregado un menu para "Shift + Tab".
+
+Cambios para la version 1.0.6
+Sincronizacion con Cuentas de Xelion Online Correctamente.
+Mejorada Notoriamente la velocidad de conexion entre cliente y servidor.
+Agregada la Descarga de Xelion Online de la misma manera que descarga un parche.
+
+Cambios para la versión 1.0.5
+Mejoras en Conexion a Servidor Coeven.
+Obligar al Usuario a Actualizar Xelion Online si es que esta conectado en el Launcher.
+Launcher AutoActualizable:
+-Cada vez que se encuentre una nueva actualizacion del Launcher, se bajara y se aplicara sin necesidad de Reiniciar el mismo.
+-Agregada Funcion para apretar Shift + Alt mientras se esta en un juego
+-Arreglos varios de Texto
+
+Cambios para la versión 1.0.4
+Agregada nueva Interfaz para el navegador Web.
+Mejoradas varias funciones de Memoria interna.
+Agregado Error Interno de API.
+Agregados Nombres de Servidores.
+
+Cambios para la versión 1.0.3
+Agregada Notificación avisando que el launcher fue minimizado al tray y se está ejecutando en segundo plano.
+Agregado Nuevo sistema de Notificaciones desde el Servidor.
+Agregado Icono de Feddy.
+Agregada Nueva Conexion HTTP con servidor Coeven.
+Agregado HeartBeat con Servidor de Coeven.
+Agregado CoevenLive (v0.1):
+  -Muestra las personas utilizando el Launcher en el momento.
+  -Muestra la cantidad de personas registradas.
+Arreglos Menores en textos.
+Agregada Nueva interfaz de Configuración
+Agregadas Webs de Launcher
+
+Cambios para la versión 1.0.2
+Agregado "Recuperar Contraseña" al menú de login.
+Nuevo diseño del login.
+Nuevas funciones de login:
+  -Recordar Contraseña (Recuerda la contraseña en el equipo).
+Nuevo diseño de "ShoutBox" donde se muestran las noticias de texto en slider.
+Agregado Panel de "Estado de Conexión" debajo del juego Xelion Online.
+Nuevo sistema de Instancia Única:
+  -Solamente es posible correr una sola instancia del Launcher. Si ya existe una instancia, el Launcher se trae al frente.
+Agregado Minimizar Launcher al Tray del Windows:
+  -El launcher se oculta y trabaja en segundo plano al Cerrar el mismo.
+  -Agregado nuevo menú al tocar el icono del tray.  
+  -Doble click para traer y mostrar el Launcher.
+Agregado "ChangeLog" para ver los cambios de Versión.

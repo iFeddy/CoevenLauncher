@@ -1,0 +1,9 @@
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\bin\Debug\CoevenLauncherServer.exe.config
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\obj\Debug\CoevenLauncherServer.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\obj\Debug\CoevenLauncherServer.CoevenLauncherServer.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\obj\Debug\CoevenLauncherServer.Properties.Resources.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\obj\Debug\CoevenLauncherServer.csproj.GenerateResource.Cache
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\bin\Debug\CoevenLauncherServer.exe
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\bin\Debug\CoevenLauncherServer.pdb
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\obj\Debug\CoevenLauncherServer.exe
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncherServer\CoevenLauncherServer\obj\Debug\CoevenLauncherServer.pdb

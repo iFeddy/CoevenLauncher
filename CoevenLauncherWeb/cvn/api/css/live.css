@@ -1,0 +1,46 @@
+*{
+margin:0;
+font-family: 'Ubuntu', sans-serif;
+font-size: 11px;
+color:#FFFCDA;
+
+}
+html{
+background:url('../img/live/bg.png') repeat-x;
+background-color: #1a191e;
+}
+header{
+width:100%;
+text-align:center;
+-webkit-user-select: none;  
+-moz-user-select: none;  
+-ms-user-select: none;     
+-o-user-select: none;
+user-select: none;   
+}
+header img{
+margin-top:35px;
+width:60px;
+-webkit-transition: -webkit-transform 1s;
+transition:  transform 1s;
+}
+header img:hover{
+cursor:pointer;
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+header ul{
+margin-top:80px;
+list-style:none;
+}
+header ul li{
+width: 100%;
+text-align: left;
+height:20px;
+}
+#connum{
+color:#9DCEFE;
+}
+#regnum{
+color:#FEBF9D;
+}

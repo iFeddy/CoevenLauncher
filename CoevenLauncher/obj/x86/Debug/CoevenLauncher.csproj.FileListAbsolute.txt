@@ -1,0 +1,62 @@
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.exe
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.pdb
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.csproj.GenerateResource.Cache
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.exe
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.pdb
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Form1.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.loginForm.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.popForm.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.recursos.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.downloadXelion.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Properties.Resources.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.exe.config
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.web_changePass.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.web_register.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.exe.config
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.exe
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.pdb
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.exe
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.pdb
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.csprojResolveAssemblyReference.cache
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.downloadXelion.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Form1.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.loginForm.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.popForm.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Properties.Resources.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.web_register.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.csproj.GenerateResource.Cache
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Recursos.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Login.web_forgot.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.navegadorWeb.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.ChangeLog.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Notificacion.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Configuracion.resources
+C:\Users\Feddy_2\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.web_changePass.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Configuracion.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.ChangeLog.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Login.web_forgot.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.navegadorWeb.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Notificacion.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.exe.config
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.exe
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.pdb
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.exe
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.pdb
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.csprojResolveAssemblyReference.cache
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Configuracion.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.ChangeLog.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.downloadXelion.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Form1.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.loginForm.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Login.web_forgot.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.popForm.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.web_changePass.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.navegadorWeb.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Notificacion.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Properties.Resources.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.Recursos.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.web_register.resources
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.csproj.GenerateResource.Cache
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\HotkeyLib.dll
+C:\Users\Feddy\Google Drive\Programacion\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.gameLayout.resources

@@ -1,0 +1,15 @@
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\bin\Debug\CoevenLauncher.exe.config
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\bin\Debug\CoevenLauncher.exe
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\bin\Debug\CoevenLauncher.pdb
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\bin\Debug\AutomaticUpdater.dll
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\bin\Debug\Ionic.Zip.dll
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\bin\Debug\AutomaticUpdater.xml
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\bin\Debug\Ionic.Zip.xml
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\obj\x86\Debug\XelionOnlineLauncher.Form1.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\obj\x86\Debug\CoevenLauncher.Properties.Resources.resources
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\obj\x86\Debug\Coeven Launcher.csproj.GenerateResource.Cache
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\obj\x86\Debug\CoevenLauncher.exe
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\XelionLauncher\obj\x86\Debug\CoevenLauncher.pdb
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\bin\Debug\CoevenLauncher.exe.config
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.exe
+C:\Users\Feddy\Desktop\Coeven\Launcher\Source\CoevenLauncher\obj\x86\Debug\CoevenLauncher.pdb

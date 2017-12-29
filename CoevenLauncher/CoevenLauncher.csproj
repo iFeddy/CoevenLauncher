@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2496C1D8-2C93-4CF3-8A30-7F27E78CDAF4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoevenLauncher</RootNamespace>
+    <AssemblyName>CoevenLauncher</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publicar\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Recursos\IconoCoeven.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>CoevenLauncher.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HotkeyLib">
+      <HintPath>.\HotkeyLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip">
+      <HintPath>bin\Debug\CoevenLib\Ionic.Zip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebKit.Interop">
+      <HintPath>bin\Debug\CoevenLib\WebKit.Interop.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="WebKitBrowser, Version=0.5.0.0, Culture=neutral, PublicKeyToken=b967213f6d29a3be, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CoevenLib\WebKitBrowser.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\CryptorEngine.cs" />
+    <Compile Include="Clases\Datos.cs" />
+    <Compile Include="Clases\leerINI.cs" />
+    <Compile Include="Clases\FlashWindow.cs" />
+    <Compile Include="Configuracion\Configuracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\Configuracion.Designer.cs">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\Configuraciones.cs" />
+    <Compile Include="MainLauncher\gameLayout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLauncher\gameLayout.Designer.cs">
+      <DependentUpon>gameLayout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLauncher\ChangeLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLauncher\ChangeLog.Designer.cs">
+      <DependentUpon>ChangeLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLauncher\downloadXelion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLauncher\downloadXelion.Designer.cs">
+      <DependentUpon>downloadXelion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Launcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launcher.Designer.cs">
+      <DependentUpon>Launcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\Program.cs" />
+    <Compile Include="Login\loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\web_forgot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\web_forgot.Designer.cs">
+      <DependentUpon>web_forgot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLauncher\popForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLauncher\popForm.Designer.cs">
+      <DependentUpon>popForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLauncher\web_changePass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLauncher\web_changePass.Designer.cs">
+      <DependentUpon>web_changePass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NavegadorWeb\navegadorWeb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NavegadorWeb\navegadorWeb.Designer.cs">
+      <DependentUpon>navegadorWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainLauncher\Notificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainLauncher\Notificacion.Designer.cs">
+      <DependentUpon>Notificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Clases\Settings.cs" />
+    <Compile Include="Clases\Seguridad.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Login\web_register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login\web_register.Designer.cs">
+      <DependentUpon>web_register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recursos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Recursos.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\ScreenShot.cs" />
+    <Compile Include="Clases\UnaInstancia.cs" />
+    <EmbeddedResource Include="Configuracion\Configuracion.resx">
+      <DependentUpon>Configuracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLauncher\gameLayout.resx">
+      <DependentUpon>gameLayout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLauncher\ChangeLog.resx">
+      <DependentUpon>ChangeLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLauncher\downloadXelion.resx">
+      <DependentUpon>downloadXelion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launcher.resx">
+      <DependentUpon>Launcher.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\web_forgot.resx">
+      <DependentUpon>web_forgot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLauncher\popForm.resx">
+      <DependentUpon>popForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLauncher\web_changePass.resx">
+      <DependentUpon>web_changePass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NavegadorWeb\navegadorWeb.resx">
+      <DependentUpon>navegadorWeb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainLauncher\Notificacion.resx">
+      <DependentUpon>Notificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recursos.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Recursos.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\web_register.resx">
+      <DependentUpon>web_register.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Recursos\icon_facebook.png" />
+    <EmbeddedResource Include="Recursos\icon_facebookhover.png" />
+    <EmbeddedResource Include="Recursos\icon_twitter.png" />
+    <EmbeddedResource Include="Recursos\icon_twitterhover.png" />
+    <EmbeddedResource Include="Recursos\icon_youtube.png" />
+    <EmbeddedResource Include="Recursos\icon_youtubehover.png" />
+    <EmbeddedResource Include="Recursos\loading.gif" />
+    <EmbeddedResource Include="Recursos\main_bg.png" />
+    <EmbeddedResource Include="Recursos\main_close.png" />
+    <EmbeddedResource Include="Recursos\main_closehover.png" />
+    <EmbeddedResource Include="Recursos\main_info.png" />
+    <EmbeddedResource Include="Recursos\main_infohover.png" />
+    <EmbeddedResource Include="Recursos\main_layer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\IconoCoeven.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_bulletok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_bulletwrong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_closehover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_conecthover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_connect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_connectactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\pop_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\pop_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\pop_closehover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\pop_download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\pop_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\pop_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_confighover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_verified.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_addcoinshover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_addcoins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_chpass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_chpasshover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_verifiedhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_unverifiedhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_unverified.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_downhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_shophover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_shop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_webhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_updpointshover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\icon_updpoints.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\button_xelionhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\button_xelionactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\button_xelion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\button_xelionerror.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\button_downloadhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\button_download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\download_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\download_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_startHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_startActive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\pop_changepass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\loading03.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_registerclick.png" />
+    <EmbeddedResource Include="Recursos\login_registerhover.png" />
+    <EmbeddedResource Include="Recursos\login_register.png" />
+    <EmbeddedResource Include="Recursos\web_close.png" />
+    <EmbeddedResource Include="Recursos\web_closehover.png" />
+    <EmbeddedResource Include="Recursos\loading04.GIF" />
+    <EmbeddedResource Include="Recursos\web_icon.png" />
+    <EmbeddedResource Include="Recursos\web_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_outlook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_gmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_unlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_loading.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_tienda_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_tienda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_coeven_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_coeven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_separador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_comunidad_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_comunidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_descargas_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\web_link_descargas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_newaccount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\login_forgotpass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\ContextMenu\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\ContextMenu\facebook.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\ContextMenu\open_folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\ContextMenu\twitter_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\ContextMenu\youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\ContextMenu\changelog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\changelog_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\ChangeLog.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_logoFeddy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\noti_bg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\noti_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\noti_closeHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\_IconoBaymax.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\bip.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\_IconoServer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\_IconoConectado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Config\configBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Config\folderScreenHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Config\folderCBAKHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Config\folderXelBAKHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\main_web_restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\Notificacion\_IconoOnline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\testXelion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Recursos\transparentLayout.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
